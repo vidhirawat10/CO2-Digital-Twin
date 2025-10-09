@@ -1,10 +1,7 @@
-// frontend/src/App.js --- FINAL ROBUST VERSION
-
 import React, { useRef, useEffect, useState } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
-// SET YOUR ACCESS TOKEN HERE
 mapboxgl.accessToken = 'pk.eyJ1IjoidmlkaGlyYXdhdDEwIiwiYSI6ImNtZnBrb3NudzBoOGQyaXM4cTdsdWV0cjIifQ.bfa7HH6enfhJhYCbaofDwg';
 
 // Dedicated component to handle ALL map logic
